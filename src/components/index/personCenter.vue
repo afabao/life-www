@@ -89,7 +89,7 @@
       logout() {
         axios.get('/api/logout').then((response) => {
           if(response.data.code == 200){
-            window.location.href="http://localhost:8888"
+            window.location.href="http://172.16.42.133"
           }
         })
       }

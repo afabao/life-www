@@ -18,7 +18,8 @@ export default {
         console.log(response)
         if(response.status == 200){
           if(response.data.code == 202){
-            window.location.href="http://localhost:8888/personCenter"
+            // window.location.href="http://localhost:8888/personCenter"
+            window.location.href="http://172.16.42.133/personCenter"
           }else{
             window.location.href=response.request.responseURL
           }
